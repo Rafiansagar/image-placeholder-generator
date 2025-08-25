@@ -1,6 +1,6 @@
 # 🖼️ Image Placeholder Generator
 
-A simple Python tool to generate placeholder images from your existing image folders.  
+A simple tool to generate placeholder images from your existing image folders.  
 It preserves the original folder structure and replaces each image with a gray placeholder showing its dimensions (e.g., 1920x1080).
 
 ## 🚀 Features
@@ -9,10 +9,9 @@ It preserves the original folder structure and replaces each image with a gray p
 - Displays image size (e.g., 800x600) centered on the placeholder  
 - Supports multiple formats: `.jpg`, `.jpeg`, `.png`, `.webp`, `.bmp`, `.gif`  
 - Preserves original folder structure  
-- Option to build a stand-alone `.exe` (no Python needed)  
 
 ## 📂 Project Structure
-
+`` py
 your-project/
 │
 ├── images/ # Original images (input)
@@ -30,3 +29,4 @@ your-project/
 │ └── img3.jpg → (placeholder)
 │
 └── placeholder.py # Main script
+``
