@@ -11,7 +11,7 @@ It preserves the original folder structure and replaces each image with a gray p
 - Preserves original folder structure  
 
 ## 📂 Project Structure
-`` py
+```
 your-project/
 │
 ├── images/ # Original images (input)
@@ -28,5 +28,5 @@ your-project/
 │ └── subfolder2/
 │ └── img3.jpg → (placeholder)
 │
-└── placeholder.py # Main script
-``
+└── image-placeholder-generator.exe
+```
